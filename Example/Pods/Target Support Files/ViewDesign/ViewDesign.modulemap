@@ -1,0 +1,6 @@
+framework module ViewDesign {
+  umbrella header "ViewDesign-umbrella.h"
+
+  export *
+  module * { export * }
+}

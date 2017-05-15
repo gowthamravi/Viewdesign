@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ViewDesign_Example' do
+  pod 'ViewDesign', :path => '../'
+
+  target 'ViewDesign_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
