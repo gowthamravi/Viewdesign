@@ -12,6 +12,8 @@
 		699DB37F8004DC52A38B7FE30B3713DB /* Pods-ViewDesign_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68849D63F445C928B0AB681AAA3E1FB6 /* Pods-ViewDesign_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97720B662735A51296D2185A5E9987B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B058FC6A528D23C31804CDDFF63911E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BB418D891ECB263700EA39A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB418D881ECB263700EA39A6 /* UIKit.framework */; };
+		BB418D8C1ECB268100EA39A6 /* ViewDesign.swift in Resources */ = {isa = PBXBuildFile; fileRef = BBC6DB021EC9D04A00C2202B /* ViewDesign.swift */; };
 		BBC6DB031EC9D04A00C2202B /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6DB021EC9D04A00C2202B /* ViewDesign.swift */; };
 		BD54A52F193082A97F852FA37FEE727E /* Pods-ViewDesign_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B197213213339970EB2845337A3359 /* Pods-ViewDesign_Example-dummy.m */; };
 		C1B324E805D60E54F2A0CE54889D7B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -54,6 +56,8 @@
 		A421315C8C5E37E06C363465087578AA /* Pods-ViewDesign_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewDesign_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A7E0B7467033F11CE36BB884A62B3448 /* Pods-ViewDesign_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViewDesign_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AAD5978DDB646D99E7BC89236B2537F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB418D881ECB263700EA39A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB418D9D1ECB26EB00EA39A6 /* Pods-ViewDesign_Example copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pods-ViewDesign_Example copy-Info.plist"; path = "/Users/gowthamravikumar/Documents/Samples/Viewdesign/Example/Pods/Pods-ViewDesign_Example copy-Info.plist"; sourceTree = "<absolute>"; };
 		BBC6DB021EC9D04A00C2202B /* ViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
 		C4D48A6FFBC0E0C328BDC4AA2F016C0F /* Pods-ViewDesign_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewDesign_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D7E32A0B3F9A8893E5C8D3AD515BC3A4 /* ViewDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViewDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB418D891ECB263700EA39A6 /* UIKit.framework in Frameworks */,
 				B058FC6A528D23C31804CDDFF63911E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,12 +181,14 @@
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				57AC2C34634DBAAF26ACC79DEBDC9260 /* Products */,
 				CDED96B7003ECA1C5577BD865EA34B18 /* Targets Support Files */,
+				BB418D9D1ECB26EB00EA39A6 /* Pods-ViewDesign_Example copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB418D881ECB263700EA39A6 /* UIKit.framework */,
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
@@ -259,6 +266,7 @@
 				943A03E23227EFFCFC92E209B8677EE7 /* Sources */,
 				B5AB8284CA5CC8E38F28C4089350B106 /* Frameworks */,
 				3045B59C69B0118ED69AD370F3278D8B /* Headers */,
+				BB418D8A1ECB266200EA39A6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,6 +344,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB418D8A1ECB266200EA39A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB418D8C1ECB268100EA39A6 /* ViewDesign.swift in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02450A2D8CCBDA5F91FDF22ADCC89B32 /* Sources */ = {
