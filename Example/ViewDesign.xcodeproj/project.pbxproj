@@ -47,7 +47,6 @@
 		68F3571E27BC8DD1A5C83A03 /* Pods_ViewDesign_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewDesign_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3B6F940AD2892FCD48914D /* Pods-ViewDesign_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewDesign_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewDesign_Tests/Pods-ViewDesign_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AED2AA9C856318E8D1D02684 /* Pods-ViewDesign_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewDesign_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewDesign_Example/Pods-ViewDesign_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BBC6DAFF1EC9CD8800C2202B /* ViewDesign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDesign.h; sourceTree = "<group>"; };
 		BBC6DB001EC9CF5300C2202B /* DBDesignController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBDesignController.swift; sourceTree = "<group>"; };
 		CA319736CDA684E52A176358 /* ViewDesign.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ViewDesign.podspec; path = ../ViewDesign.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +102,6 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				BBC6DAFF1EC9CD8800C2202B /* ViewDesign.h */,
 			);
 			name = "Example for ViewDesign";
 			path = ViewDesign;

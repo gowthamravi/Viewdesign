@@ -7,8 +7,8 @@
 //
 
 import Foundation
-extension UIView
-{
+
+public class ViewDesign : UIView {
     @IBInspectable var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
