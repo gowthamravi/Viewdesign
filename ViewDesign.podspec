@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gowtham' => 'gowtham.r3@gmail.com' }
   s.source           = { :git => 'https://github.com/gowthamravi/Viewdesign.git', :tag => s.version.to_s }
+ s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.source_files = 'Pod/Classes/**/*'
