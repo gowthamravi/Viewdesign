@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ViewDesign"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A short description of ViewDesign."
   s.homepage         = 'https://github.com/gowthamravi/Viewdesign'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
