@@ -41,18 +41,18 @@ public class ViewDesign : UILabel {
     
     public func startBlinking() {
         
-//        let option: UIViewAnimationOptions = .curveEaseIn
-//        UIView.animate(withDuration: 0.25, delay: 0.0, options: option, animations: {
-//            self.alpha = 0
-//        }, completion: nil)
-//    }
-//    
-//    /**
-//     Tells the label to stop blinking.
-//     */
-//    public func stopBlinking() {
-//        alpha = 1
-//        layer.removeAllAnimations()
+        let option: UIViewAnimationOptions = .curveEaseIn
+        UIView.animate(withDuration: 0.25, delay: 0.0, options: option, animations: {  () -> Void in
+            self.alpha = 0
+        }, completion: nil)
+    }
+    
+    /**
+     Tells the label to stop blinking.
+     */
+    public func stopBlinking() {
+        alpha = 1
+        layer.removeAllAnimations()
     }
     
 //   public func shake() {
