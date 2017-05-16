@@ -10,50 +10,50 @@ import Foundation
 
 
 public class ViewDesign : UILabel {
-//    @IBInspectable var cornerRadius: CGFloat {
-//        get {
-//            return layer.cornerRadius
-//        }
-//        set {
-//            layer.cornerRadius = newValue
-//            layer.masksToBounds = newValue > 0
-//        }
-//    }
-//    
-//    @IBInspectable var borderwidth: CGFloat {
-//        get {
-//            return layer.borderWidth
-//        }
-//        set {
-//            layer.borderWidth = newValue
-//            layer.masksToBounds = newValue > 0
-//        }
-//    }
-//    
-//    @IBInspectable var bordercolor: UIColor {
-//        get {
-//            return self.bordercolor
-//        }
-//        set {
-//            layer.borderColor = newValue.cgColor
-//        }
-//    }
-    
-    public func startBlinking() {
-        
-        let option: UIViewAnimationOptions = .curveEaseIn
-        UIView.animate(withDuration: 0.25, delay: 0.0, options: option, animations: {  () -> Void in
-            self.alpha = 0
-        }, completion: nil)
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
     }
     
-    /**
-     Tells the label to stop blinking.
-     */
-    public func stopBlinking() {
-        alpha = 1
-        layer.removeAllAnimations()
+    @IBInspectable var borderwidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+            layer.masksToBounds = newValue > 0
+        }
     }
+    
+    @IBInspectable var bordercolor: UIColor {
+        get {
+            return self.bordercolor
+        }
+        set {
+            layer.borderColor = newValue.cgColor
+        }
+    }
+    
+//    public func startBlinking() {
+//        
+//        let option: UIViewAnimationOptions = .curveEaseIn
+//        UIView.animate(withDuration: 0.25, delay: 0.0, options: option, animations: {  () -> Void in
+//            self.alpha = 0
+//        }, completion: nil)
+//    }
+//    
+//    /**
+//     Tells the label to stop blinking.
+//     */
+//    public func stopBlinking() {
+//        alpha = 1
+//        layer.removeAllAnimations()
+//    }
     
 //   public func shake() {
 //        let animation = CAKeyframeAnimation(keyPath: "transform.translation.x")
