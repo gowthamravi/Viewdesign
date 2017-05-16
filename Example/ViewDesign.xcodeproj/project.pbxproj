@@ -14,8 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A288F5BE038642B146585116 /* Pods_ViewDesign_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409D01A137E64762076DCCCF /* Pods_ViewDesign_Example.framework */; };
-		BBC6DB011EC9CF5300C2202B /* DBDesignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC6DB001EC9CF5300C2202B /* DBDesignController.swift */; };
+		A288F5BE038642B146585116 /* Pods_ViewDesign_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409D01A137E64762076DCCCF /* Pods_ViewDesign_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		68F3571E27BC8DD1A5C83A03 /* Pods_ViewDesign_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewDesign_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3B6F940AD2892FCD48914D /* Pods-ViewDesign_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewDesign_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewDesign_Tests/Pods-ViewDesign_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AED2AA9C856318E8D1D02684 /* Pods-ViewDesign_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewDesign_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewDesign_Example/Pods-ViewDesign_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BBC6DB001EC9CF5300C2202B /* DBDesignController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBDesignController.swift; sourceTree = "<group>"; };
 		CA319736CDA684E52A176358 /* ViewDesign.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ViewDesign.podspec; path = ../ViewDesign.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +93,6 @@
 		607FACD21AFB9204008FA782 /* Example for ViewDesign */ = {
 			isa = PBXGroup;
 			children = (
-				BBC6DB001EC9CF5300C2202B /* DBDesignController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -367,7 +364,6 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				BBC6DB011EC9CF5300C2202B /* DBDesignController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

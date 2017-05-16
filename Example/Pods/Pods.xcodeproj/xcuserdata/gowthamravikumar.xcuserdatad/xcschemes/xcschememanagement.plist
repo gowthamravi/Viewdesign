@@ -4,36 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-ViewDesign_Example 2.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>Pods-ViewDesign_Example copy.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
 		<key>Pods-ViewDesign_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
 		<key>Pods-ViewDesign_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>ViewDesign.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -49,11 +33,6 @@
 			<true/>
 		</dict>
 		<key>6E1016A48C83FECA1CEF1FB1F5185593</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BB418D8D1ECB26EB00EA39A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

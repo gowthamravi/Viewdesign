@@ -1,5 +1,5 @@
 PODS:
-  - ViewDesign (0.1.0)
+  - ViewDesign (0.2.0)
 
 DEPENDENCIES:
   - ViewDesign (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ViewDesign: e7bf398101f0b9184fb5b85b04ec8a9bf24d33f6
+  ViewDesign: 6c002f196771bc13f180f414d34863aea0a0b9cf
 
-PODFILE CHECKSUM: 6238b032577a912bb531de04b73229fc51916157
+PODFILE CHECKSUM: 9829f1d22a85fa2ea75edc7ab69fbf4997265242
 
 COCOAPODS: 1.2.1

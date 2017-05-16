@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import ViewDesign
+
 
 class ViewController: UIViewController {
 

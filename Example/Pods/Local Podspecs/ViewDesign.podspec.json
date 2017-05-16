@@ -1,22 +1,20 @@
 {
   "name": "ViewDesign",
-  "version": "0.1.0",
-  "summary": "A short description of ViewDesign.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Gowtham/ViewDesign",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "0.2.0",
+  "summary": "A subclass on UILabel that provides a blink.",
+  "description": "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.",
+  "homepage": "https://github.com/gowthamravi/Viewdesign",
+  "license": "MIT",
   "authors": {
     "Gowtham": "gowtham.r3@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Gowtham/ViewDesign.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/gowthamravi/Viewdesign.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "requires_arc": true,
   "source_files": "ViewDesign/Classes/**/*"
 }
