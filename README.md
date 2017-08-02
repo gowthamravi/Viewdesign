@@ -18,7 +18,14 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "ViewDesign"
+# Latest on develop
+pod "ViewDesign", :git => 'https://github.com/gowthamravi/Viewdesign.git'
+
 ```
+
+## Getting Started
+
+This pod class is used for some basic extesion classes for your project.
 
 ## Author
 
